@@ -1,0 +1,38 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <form id="Registro">
+            <h2>Registro</h2>
+            <div class="grupoEntrada">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre">
+                <span class="error" id="errorNombre"></span>
+            </div>
+            <div class="grupoEntrada">
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo">
+                <span class="error" id="errorCorreo"></span>
+            </div>
+            <div class="grupoEntrada">
+                <label for="contraseña">Contraseña</label> 
+                <input type="contraseña" id="contraseña">
+                <span class="error" id="errorContraseña"></span>
+            </div>
+            <div class="grupoEntrada">
+                <label for="confirmarContraseña">Confirmar contraseña</label>
+                <input type="contraseña" id="confirmarContraseña">
+                <span class="error" id="errorConfirmarContraseña"></span>
+            </div>
+            <button type="submit">Registrarse</button>
+            <p id="mensajexitoso" class="exito"></p>
+        </form>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #854, #936);
+    margin: 0;
+}
+.contenedor {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+.grupoEntrada {
+    margin-bottom: 15px;
+}
+.grupoEntrada label {
+    display: block;
+    margin-bottom: 3px;
+}
+.grupoEntrada input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.grupoEntrada input:focus {
+    border-color: #667eea;
+}
+.error {
+    color: red;
+    font-size: 12px;
+}
+.exito {
+    color: green;
+    font-size: 14px;
+    text-align: center;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background: #8889;
+    border: none;
+    color: black;
+    border-radius: 3px;
+}
+button:hover {
+    background: #9632;
+}
